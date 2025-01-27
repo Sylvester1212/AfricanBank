@@ -44,8 +44,8 @@ class _UiSettings(BaseSettings):
     title: str = "African Bank"
     logo: Optional[str] = None
     chat_logo: Optional[str] = None
-    chat_title: str = "African Bank Financial Assistant"
-    chat_description: str = "This is an AI-powered financial assistant provided by African Bank."
+    chat_title: str = "Financial Assistent"
+    chat_description: str = " AI-powered by African Bank."
     favicon: str = "/favicon.ico"
     show_share_button: bool = True
     show_chat_history_button: bool = True
