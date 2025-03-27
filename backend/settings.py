@@ -41,11 +41,11 @@ class _UiSettings(BaseSettings):
         env_ignore_empty=True
     )
 
-    title: str = "African Bank"
+    title: str = "AFRIBIT"
     logo: Optional[str] = None
     chat_logo: Optional[str] = None
     chat_title: str = "Financial Assistant"
-    chat_description: str = " AI-powered by African Bank."
+    chat_description: str = " AI-powered by AFRIBIT."
     favicon: str = "/favicon.ico"
     show_share_button: bool = True
     show_chat_history_button: bool = True
