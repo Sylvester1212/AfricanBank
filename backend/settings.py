@@ -39,7 +39,7 @@ class _UiSettings(BaseSettings):
         env_file=DOTENV_PATH,
         extra="ignore",
         env_ignore_empty=True
-    )
+    ) 
 
     title: str = "AFRIBIT"
     logo: Optional[str] = None
