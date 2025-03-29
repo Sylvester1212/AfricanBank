@@ -44,7 +44,7 @@ class _UiSettings(BaseSettings):
     title: str = " "
     logo: Optional[str] = None
     chat_logo: Optional[str] = None
-    chat_title: str = "Financial\nAssistant"
+    chat_title: str = " Financial\nAssistant"
     chat_description: str = " AI-powered by AFRIBIT."
     favicon: str = "/favicon.ico"
     show_share_button: bool = True
